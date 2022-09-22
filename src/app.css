@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
+
+body {
+  background-color: #181818;
+  margin: 0%;
+}
+
+h1 {
+  font-family: 'League Spartan', sans-serif;
+    font-size: 4rem;
+    color: #00B3CC;
+    display: flex;
+    justify-content: center;
+}
+
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    align-content: stretch;
+  }
+
+  .agregar {
+    padding: 23px;
+    border-radius: 32px;
+    border: none;
+    background-color: hsl(180, 47%, 91%);
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    color: hsl(180, 29%, 50%);
+    cursor: pointer;
+    font-size: 1.3em;
+  }
+
+  input {
+    width: 40%;
+    padding: 20px;
+    margin-right: 5px;
+    border-radius: 8px;
+    border: none;
+    height: auto;
+    box-shadow: 1px 4px 15px -7px rgba(0,0,0,0.75);
+    font-size: 1.6em;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    margin-bottom: 2%;
+    box-shadow:inset 0 0 2px 2px #ADDDD0;
+    outline: none;
+  }
+
+.task {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 1% 0 2% 0;
+    width: 55%;
+    background-color: hsl(180, 20%, 97%);
+    box-shadow: 1px 4px 15px -7px rgb(0 0 0 / 75%);
+    padding: 20px;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card button {
+    margin-right: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(180, 47%, 91%);
+    height: 30px;
+    font-family: 'League Spartan', sans-serif;
+    width: 7em;
+    font-weight: 700;
+    color: hsl(180, 29%, 50%);
+    cursor: pointer;
+    
+}
+
+.buttonClass {
+    margin-right: 1rem;
+    border-radius: 8px;
+    height: 30px;
+    font-family: 'League Spartan', sans-serif;
+    width: -5em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.card h4, h2 {
+    font-size: 1.6em;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    color: hsl(180, 14%, 20%);
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.card h2:hover {
+    color: hsl(180, 29%, 50%);
+}
+
+.completed {
+  text-decoration: line-through;
+}
